@@ -1,6 +1,10 @@
 # ReStock 0.625m Probes / Heatshield FIX
 A Patch to Fix ReStock 1.4.3's overheating Probe Cores in KSP.
 
+### [UPDATE: 2024/05/22] This patch won't be needed soon!
+It didn't make it into 1.4.4, but Poodmund, (the ReStock mod's maintainer) has merged the fix for this issue
+into the master branch. Come ReStock 1.4.5, this patch won't be needed.
+
 ### The Problem
 When using the ReStock mod for KSP, the OCTO probe core overheats to near-explosion on descent from a standard Low Kerbin Orbit, with a 33.5km Pe. This occurs when the craft consists of simply: The 0.625m Heat Shield (HeatShield0), the Probe Core, a 0.625m battery, and a standard parachute. On deeper dive, the other probe cores in the 0.625m class also suffer some less severe changes to their heat profiles.
 
